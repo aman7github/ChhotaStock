@@ -11,7 +11,7 @@ const Navbar2 = () => {
     <>
     
 
-    <Box w="90%" m='auto' h="3.5rem"  display='flex'  justifyContent='space-between' alignItems='center' backgroundColor='black'  >
+    <Box w="95%" m='auto' h="3.5rem"  display='flex'  justifyContent='space-between' alignItems='center' backgroundColor='black'  >
 
         <Box ml={{base:"0",md:"4rem",lg:"5rem"}} w={{base:"30%",sm:"23%",md:"16%"}}  h="3.5rem" display='flex'  justifyContent='space-around' alignItems='center' >
             <Center w="70%" h="3rem"   >

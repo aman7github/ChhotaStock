@@ -8,7 +8,7 @@ const Middle2 = () => {
   return (
     <>
           
-          <Box w='90%' m='auto'  display='flex' justifyContent='center'   >
+          <Box w='90%' m='auto'  display='flex' justifyContent='center' mt='-2rem'  >
 
 <Box  w='60%'  pt='6rem'  pl={{base:"1rem",sm:"2rem",lg:"5rem"}}  >
 

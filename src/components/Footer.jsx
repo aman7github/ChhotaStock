@@ -5,7 +5,7 @@ import img from "../images/Group.png"
 const Footer = () => {
   return (
     <>
-    <Box w='90%' m='auto' border='1px' pb='2rem'  backgroundColor='black'  >
+    <Box w='95%' m='auto' border='1px' pb='2rem'  backgroundColor='black'  >
 
         <Box w='30%' h='8rem' >
             <Image w='100%' h='100%' src='https://s3-alpha-sig.figma.com/img/6416/8f46/5708df7b8f70d3ce8182d0a23c0a9a34?Expires=1694390400&Signature=MXJjxZlvlCbASF~qrg2DSqHjAi8hGlLawvKQtP1tNSsGOZ7hG8Ix3vw6KtWsv1OuogK1fIZOLDJyKYu3YcIGrxn8UvrtvNKwasHT5gDZoCR1zb91ni5H8xaazaRA55ppRpRtZb5oJIEyDpOt3Ke1RNzmG~H7IB8sVLxj~gTIDUNSaEL3jjGr5WDWz~AZcZZpLYPSS6XeZpGvNFDlPk5CBaStq2OqDT-GJkxZQHF5zOzyugVVoL4dGv0LOV5EzuCC8HhKkqV5J4dfhPV-G21HxTBFoTF6GrZ9TTkuBaa17wMVimsoywdjJJQ8RKyRM6423kBeLMZ8D6LPPKL76aXz2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'  />
