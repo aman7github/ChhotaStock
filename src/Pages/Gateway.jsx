@@ -4,8 +4,10 @@ import Upper2 from '../Component2/Upper2'
 import Middle from '../Component2/Middle'
 import Mid4 from '../components/Mid4'
 import Footer from '../components/Footer'
-import { Box } from '@chakra-ui/react'
+import { Box, Modal } from '@chakra-ui/react'
 import Middle2 from '../Component2/Middle2'
+import DropDown from '../Component2/DropDown'
+
 
 const Gateway = () => {
   return (
@@ -21,6 +23,8 @@ const Gateway = () => {
     <Footer />
 
     </Box>
+
+    <DropDown />
 
 
 

@@ -3,6 +3,17 @@ import React from 'react'
 import {AiOutlineSearch} from "react-icons/ai"
 import {MdSendToMobile} from 'react-icons/md'
 import {Link as RouteLink } from 'react-router-dom'
+import {
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuDivider,
+} from '@chakra-ui/react'
+import DropDown from './DropDown'
 
 
 
@@ -39,7 +50,22 @@ const Navbar2 = () => {
 
         <Box mr={{base:"0",md:"4rem",lg:"5rem"}}  w={{base:"50%",sm:"40%",md:"23%"}} color='white' display='flex'  justifyContent='space-between' alignItems='center' >
            <Box fontSize='1rem'  >
-               Products
+           <Menu>
+             {({ isOpen }) => (
+              <>
+               <MenuButton isActive={isOpen} as={Button} backgroundColor='black' color='white' _hover={{backgroundColor:"black"}} >
+                 {isOpen ? 'Products' : 'Products'}
+               </MenuButton>
+              <MenuList  >
+               
+                  <DropDown  />
+               
+               
+             </MenuList>
+            </>
+           )}
+          </Menu>
+               
            </Box>
 
            <Box fontSize='1rem'  >
