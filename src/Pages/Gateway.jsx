@@ -24,7 +24,7 @@ const Gateway = () => {
 
     </Box>
 
-    <DropDown />
+   
 
 
 
